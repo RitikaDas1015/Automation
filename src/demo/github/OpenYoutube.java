@@ -23,6 +23,7 @@ public class OpenYoutube {
 	  Thread.sleep(10000);
 	  String url=driver.getCurrentUrl();
 	  System.out.println(url); 
+	  driver.close();
 	}
 
 }
